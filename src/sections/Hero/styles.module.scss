@@ -1,0 +1,41 @@
+.hero{
+    padding: 150px 30px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #FFD60A;
+
+    h1 {
+        font-weight: 900;
+        color: #282828;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+        max-width: 600px;
+        font-weight: 300;
+        line-height: 1.5;
+        margin: 0 auto;
+    }
+
+    a{
+        background-color: #272727;
+        display: block;
+        width: max-content;
+        padding: 12px 35px;
+        margin: 0 auto 30px;
+        border-radius: 40px;
+        color: #fff;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, .25);
+
+    }
+}
+
+.waves{
+    background-image: url('../../assets//img/waves.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 70px;
+}
