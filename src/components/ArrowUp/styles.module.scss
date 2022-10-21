@@ -1,0 +1,28 @@
+.up{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .25);
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #FFD60A;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(5px);
+    transition: opacity .2s ease, visibility .2s ease, transform .2s ease;
+
+    svg {
+        font-size: 1.3rem;
+    }
+
+    &.active{
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}

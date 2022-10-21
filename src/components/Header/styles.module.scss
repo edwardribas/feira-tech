@@ -1,14 +1,16 @@
 .header {
     position: fixed;
-    top: 15px;
+    top: 13px;
     left: 50%;
     user-select: none;
+    z-index: 1000;
     transform: translateX(-50%);
     width: 95%;
     max-width: 1200px;
     margin: 0 auto;
-    border-radius: 60px;
-    background-color: #282828;
+    border-radius: 10px;
+    background-color: #1f1f1fda;
+    backdrop-filter: blur(7px) saturate(8);
 
     nav {
         display: flex;
