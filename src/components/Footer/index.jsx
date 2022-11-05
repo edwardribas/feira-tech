@@ -13,10 +13,15 @@ export const Footer = () => {
                 <a
                     href="https://pt-br.facebook.com/people/Aquarella-Adesivos/100063532030004/"
                     target="_blank"
+                    rel='noreferrer'
                 >
                     <img src={Aquarella} alt="Logo de parceiro"/>
                 </a>
-                <a href='https://lsidiomas.com.br/' target="_blank">
+                <a
+                    href='https://lsidiomas.com.br/'
+                    target="_blank"
+                    rel='noreferrer'
+                >
                     <img src={LSIdiomas} alt="Logo de parceiro"/>
                 </a>
             </div>
