@@ -17,8 +17,6 @@ export const Hero = () => {
                     Curtas
                 </a>
             </section>
-            <div className={styles.waves}>
-            </div>
         </>
     )
 }

@@ -5,9 +5,28 @@
     text-align: center;
     margin-top: 100px;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
     
     p{
         font-weight: 200;
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+
+    .parceiros {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        img {
+            width: 75px;
+            height: 75px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
     }
 }
