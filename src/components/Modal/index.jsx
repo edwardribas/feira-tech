@@ -17,10 +17,10 @@ export const Modal = ({descricao, isActive, closeFunction}) => {
                     {descricao}
                 </p>
 
-                <button onClick={() => closeFunction(false)}> Fechar </button>
+                <button onClick={() => closeFunction('0')}> Fechar </button>
             </div>
             <div
-                onClick={() => closeFunction(false)}
+                onClick={() => closeFunction('0')}
                 className={
                     isActive
                         ? `${styles.backdrop} ${styles.active}`
